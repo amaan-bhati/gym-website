@@ -1,0 +1,33 @@
+
+header{
+    padding: 20px;
+}
+header div.columns{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header nav a{
+    text-decoration: none;
+    color:#333;
+    margin-right: 20px;
+    position: relative;
+}
+header nav a span{
+    position: relative;
+}
+header nav a.active span:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right:0;
+    bottom:-2px;
+    border-bottom: 10px solid #46C6CB;
+    z-index: -1;
+}
+.mobile-nav-btn{
+    display:none;
+}
+#navCb{
+    display:none;
+}
