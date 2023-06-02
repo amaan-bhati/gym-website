@@ -31,3 +31,42 @@ header nav a.active span:before{
 #navCb{
     display:none;
 }
+
+
+section.intro{
+    display:grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    padding: 0 20px;
+    position:relative;
+    gap: 50px;
+}
+
+section.intro .content-column{
+    padding-top: 25px;
+}
+section.intro h1{
+    color: #D8A9D8;
+    text-transform: uppercase;
+    font-size:3rem;
+}
+section.intro h2{
+    text-transform: uppercase;
+    font-size: 2.4rem;
+}
+section.intro p{
+    color: #666;
+    font-size:.8rem;
+    line-height: 1.3rem;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+.shadow-text{
+    position: absolute;
+    top:30px;
+    left:-30px;
+    color: rgba(0,0,0,.05);
+    font-size:7rem;
+    line-height:6rem;
+    z-index: -1;
+    font-weight: bold;
+}
