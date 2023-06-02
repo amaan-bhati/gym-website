@@ -70,3 +70,54 @@ section.intro p{
     z-index: -1;
     font-weight: bold;
 }
+
+
+section.intro div.circle{
+    width: 700px;
+    height: 700px;
+    border-radius:50%;
+    background: linear-gradient(270deg, #ABB6E4 200px, #EFB6C5);
+    position: absolute;
+    top:-250px;
+    right:-350px;
+    z-index: -1;
+}
+.intro-picture img{
+    width: 250px;
+    margin-top: 40px;
+}
+.dots{
+    background: url('dot.png');
+    position: absolute;
+    z-index: -1;
+    right: -100px;
+    top: 60px;
+    opacity: 0.5;
+    width: 250px;
+    height: 180px;
+}
+
+form.intro-booking{
+    display: grid;
+    position: relative;
+    top: -5px;
+    grid-template-columns: 50px 1fr 50px 1fr 50px 1fr 1fr;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    margin: 0;
+    border-radius:5px;
+    border: 3px solid #fff;
+}
+form.intro-booking div.icon{
+    text-align: center;
+}
+form.intro-booking svg{
+    height: 20px;
+}
+form.intro-booking input{
+    display: block;
+    border:0;
+    padding: 5px 0;
+    border-right: 1px solid #ddd;
+}
