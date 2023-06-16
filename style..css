@@ -389,3 +389,38 @@ section.about p{
     }
 }
 
+section.services{
+    background-color:#000;
+    color:#fff;
+    margin-top: 50px;
+    padding: 70px 20px 0;
+    position: relative;
+}
+section.services .shadow-text{
+    color: rgba(255,255,255,.1);
+    z-index: 1;
+    left:0;
+    top: -50px;
+}
+section.services div.columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-end;
+}
+.service{
+    margin: 50px 0;
+}
+.service .number{
+    font-size: 3rem;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #fff;
+    color:#000;
+}
+.service h3{
+    margin: 10px 0 10px;
+}
+.service p{
+    color: rgba(255,255,255,.5);
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
