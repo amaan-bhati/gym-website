@@ -436,3 +436,43 @@ section.services div.columns{
         margin: 20px 0;
     }
 }
+
+
+section.classes{
+    position: relative;
+    padding: 70px 20px;
+}
+section.classes .shadow-text{
+    top:-50px;
+    left:-50px;
+    font-size:5rem;
+}
+.classes-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-top: 30px;
+}
+.classes-grid .class{
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    position:relative;
+    color:#000;
+    text-decoration: none;
+}
+.classes-grid .class:after{
+    content: '→';
+    position: absolute;
+    font-size: 2rem;
+    right:10px;
+    top: 50%;
+    margin-top: -1rem;
+    color:#45C3C8;
+}
+.class time{
+    display:block;
+    font-size: .8rem;
+    margin-top: 7px;
+}
