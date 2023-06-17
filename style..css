@@ -476,3 +476,11 @@ section.classes .shadow-text{
     font-size: .8rem;
     margin-top: 7px;
 }
+@media screen and (max-width: 768px) {
+    .classes-grid{
+        grid-template-columns:1fr 1fr;
+    }
+    .class time{
+        margin-right: 20px;
+    }
+}
