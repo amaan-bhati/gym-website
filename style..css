@@ -484,3 +484,32 @@ section.classes .shadow-text{
         margin-right: 20px;
     }
 }
+
+
+section.facilities{
+    background: linear-gradient(90deg, #C2B0E0 60%, #7DD7D8);
+}
+section.facilities img{
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+}
+section.facilities div.columns{
+    display: grid;
+    align-items: center;
+    grid-template-columns: max-content 1fr;
+}
+section.facilities div.content{
+    position: relative;
+    padding: 10px 60px;
+    color:#fff;
+}
+section.facilities p{
+    margin: 20px 0;
+    font-size: .8rem;
+}
+section.facilities div.shadow-text{
+    z-index: 1;
+    color: rgba(255,255,255,.1);
+    top:-50px;
+    left:20px;
+}
