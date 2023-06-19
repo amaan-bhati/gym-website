@@ -558,3 +558,34 @@ section.facilities div.shadow-text{
     }
 }
 
+
+
+section.team{
+    padding: 80px 0 40px;
+}
+section.team .shadow-text{
+    top:-50px;
+    left: -50px;
+}
+div.teams-members{
+    margin-top: 30px;
+    display: grid;
+    align-items:flex-end;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.member{
+    text-align: center;
+}
+.member p{
+    font-size: .8rem;
+    color: #777;
+}
+.member img{
+    border-radius: 15px;
+}
+.member h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
