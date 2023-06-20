@@ -589,3 +589,12 @@ div.teams-members{
     margin-bottom: 5px;
 }
 
+
+@media screen and (max-width: 768px) {
+    section.team{
+        padding: 60px 20px;
+    }
+    div.teams-members{
+        grid-template-columns:1fr;
+    }
+}
