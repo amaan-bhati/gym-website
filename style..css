@@ -710,3 +710,11 @@ footer p{
     font-size:.8rem;
     color:rgba(255,255,255,0.6);
 }
+
+
+@media screen and (max-width: 768px) {
+    footer div.columns{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+}
