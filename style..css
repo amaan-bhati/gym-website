@@ -641,3 +641,23 @@ section.trainer a {
 section.trainer img {
   display: block;
 }
+
+@media screen and (max-width: 768px) {
+  section.trainer div.columns {
+    grid-template-columns: 1fr;
+  }
+  section.trainer .square {
+    top: -50%;
+    left: -40%;
+    width: 150%;
+    height: 250%;
+    transform: rotate(20deg);
+  }
+  section.trainer div.content {
+    padding: 60px 20px;
+    position: relative;
+  }
+  section.trainer img {
+    display: none;
+  }
+}
