@@ -1,3 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+h2 {
+  font-size: 2rem;
+}
+.center {
+  max-width: 780px;
+  margin: 0 auto;
+  position: relative;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+a.btn,
+button,
+.mobile-nav-btn {
+  background-color: #222;
+  color: #fff;
+  padding: 12px 25px;
+  border: 0;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
 header {
   padding: 20px;
 }
@@ -662,59 +695,57 @@ section.trainer img {
   }
 }
 
-
-footer{
-    background-color: #2F2F2F;
-    color:#fff;
-    padding: 50px 0;
+footer {
+  background-color: #2f2f2f;
+  color: #fff;
+  padding: 50px 0;
 }
-footer a{
-    color:#fff;
+footer a {
+  color: #fff;
 }
-footer .columns{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap: 50px;
+footer .columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
 }
-footer .links{
-    display: grid;
-    grid-template-columns:1fr 1fr;
+footer .links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-footer .links a{
-    display: block;
-    padding: 10px 0;
-    text-decoration: none;
-    font-size: .8rem;
+footer .links a {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 0.8rem;
 }
-footer h4{
-    margin-bottom: 20px;
+footer h4 {
+  margin-bottom: 20px;
 }
-footer a.logo{
-    text-decoration: none;
-    font-size:2rem;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 20px;
-    font-weight: 300;
-    line-height: 2rem;
+footer a.logo {
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 2rem;
 }
-footer a.logo span{
-    font-weight: bold;
-    display:block;
-    font-size:2.8rem;
-    text-align: center;
-    letter-spacing: 0px;
+footer a.logo span {
+  font-weight: bold;
+  display: block;
+  font-size: 2.8rem;
+  text-align: center;
+  letter-spacing: 0px;
 }
-footer p{
-    margin: 14px 0;
-    font-size:.8rem;
-    color:rgba(255,255,255,0.6);
+footer p {
+  margin: 14px 0;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
 }
-
 
 @media screen and (max-width: 768px) {
-    footer div.columns{
-        grid-template-columns: 1fr;
-        padding: 20px;
-    }
+  footer div.columns {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
 }
